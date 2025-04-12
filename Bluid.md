@@ -1,6 +1,6 @@
 ### -1 you need right packages 
 ```bash
-sudo pacman -S xorg-server xorg-xinit
+sudo pacman -S xorg-server xorg-xinit xf86-input-libinput
 ```
 ### you need to create this folder 
 ```bash
