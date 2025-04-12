@@ -7,7 +7,7 @@ sudo pacman -S xorg-server xorg-xinit
 sudo mkdir -p /usr/share/xsessions
 '''
 ### -2 you need to create a .desktop file for dwm for speed use this
-'''bash
+```bash
 [Desktop Entry]
 Encoding=UTF-8
 Name=dwm
@@ -15,4 +15,4 @@ Comment=Dynamic window manager
 Exec=/usr/local/bin/dwm
 Icon=dwm
 Type=XSession
-'''
+```
