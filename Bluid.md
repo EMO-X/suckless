@@ -1,6 +1,6 @@
 ### -1 you need right packages 
 ```bash
-sudo pacman -S xorg-server xorg-xinit xf86-input-libinput
+sudo pacman -S xorg-server xorg-xinit xf86-input-libinput mesa-utils
 ```
 ### you need to create this folder 
 ```bash
