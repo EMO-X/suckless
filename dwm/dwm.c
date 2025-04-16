@@ -2230,6 +2230,12 @@ zoom(const Arg *arg)
 	pop(c);
 }
 
+void
+autostart()
+{
+	system("nitrogen --restore");
+	system("picom &");
+}
 int
 main(int argc, char *argv[])
 {
@@ -2242,6 +2248,7 @@ main(int argc, char *argv[])
 	if (!(dpy = XOpenDisplay(NULL)))
 		die("dwm: cannot open display");
 	checkotherwm();
+	autostart();
 	setup();
 #ifdef __OpenBSD__
 	if (pledge("stdio rpath proc exec", NULL) == -1)
