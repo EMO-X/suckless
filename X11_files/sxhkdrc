@@ -1,0 +1,18 @@
+
+XF86AudioRaiseVolume
+    pamixer --increase 5
+
+XF86AudioLowerVolume
+    pamixer --decrease 5
+
+XF86AudioMute
+    pamixer --toggle-mute
+
+XF86MonBrightnessUp
+    brightnessctl set +10%
+
+XF86MonBrightnessDown
+    brightnessctl set 10%-
+
+XF86AudioMicMute
+    pamixer --default-source --toggle-mute
