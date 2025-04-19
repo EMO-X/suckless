@@ -7,9 +7,9 @@ bat1=$(cat /sys/class/power_supply/BAT1/capacity)
 statu0=$(cat /sys/class/power_supply/BAT0/status)
 status1=$(cat /sys/class/power_supply/BAT1/status)
 if [ "$status1" = "Discharging" ]; then
-	echo "$bat1   $bat0  "
-elif [ "$status1" = "chargin" ]; then
-	echo "$bat1 $bat0"
+	echo "$bat1/$bat0  "
+elif [ "$status1" = "Full" ]; then
+	echo "$bat1/$bat0 ﷲ"
 fi
 
 

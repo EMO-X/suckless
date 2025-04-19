@@ -2233,8 +2233,7 @@ zoom(const Arg *arg)
 void
 autostart()
 {
-	system("nitrogen --restore");
-	system("picom &");
+	system("~/suckless/dwm/autostart.sh");
 }
 int
 main(int argc, char *argv[])

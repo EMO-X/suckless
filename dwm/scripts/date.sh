@@ -1,4 +1,4 @@
 #!/bin/bash
 
 
-echo $(date +"%I:%M %x")
+echo $(date +"%I:%M | %x")
